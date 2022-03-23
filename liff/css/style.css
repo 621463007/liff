@@ -10,6 +10,7 @@ p {
 }
 
 #pictureUrl {
+  display: block;
   margin: 0 auto;
   width: 12%;
   display: -moz-box;
