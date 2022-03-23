@@ -12,7 +12,7 @@ p {
 #pictureUrl {
   display: block;
   margin: 0 auto;
-  width: 5%;
+  width: 10%;
   display: -moz-box;
   display: -webkit-box;
   display: box;
@@ -22,9 +22,9 @@ p {
   -webkit-box-align: center;
   box-pack: center;
   box-align: center;
-  -moz-border-radius: 100px;
-  -webkit-border-radius: 100px;
-  border-radius: 100px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
 }
 
 #accessToken, #utouId {
