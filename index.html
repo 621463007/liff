@@ -60,10 +60,14 @@
     }
 
     function openWindow() {
+      liff.openWindow({
+        url: "https://line.me",
+        external: true
+      })
     }
 
     async function getFriendship() {
-      const friends = await liff.getFriendship()
+      const friend = await liff.getFriendship()
       document.getElementById("friendship").append(friend.friendFlag)
       if (!friend.friendFlag) {
         if (confirm("ยังไม่ได้เป็นเพื่อน Bot จะเพิ่มเลยไหม?")) {
